@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Messenger</string>
+    <string name="i_have_account_button">I Have account</string>
+    <string name="new_account_button">new account</string>
+    <string name="create_account_button">create account</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

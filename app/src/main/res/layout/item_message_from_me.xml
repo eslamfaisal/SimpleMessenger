@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    tools:ignore="RtlHardcoded">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/user_image_of_message"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:src="@drawable/profile" />
+
+    <ImageView
+        android:layout_marginStart="16dp"
+        android:id="@+id/photo_image_view_of_message"
+        android:layout_width="243dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/message_text_view_of_message"
+        android:adjustViewBounds="true" />
+
+    <TextView
+        android:gravity="start"
+        android:layout_marginStart="16dp"
+        android:id="@+id/message_text_view_of_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/user_image_of_message"
+        android:background="@drawable/ic_from_me"
+        android:padding="8dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        tools:text="Message ro eslam faisal ali emara " />
+
+</RelativeLayout>

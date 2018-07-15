@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "793956451475",
+    "firebase_url": "https://srahahmessenger1.firebaseio.com",
+    "project_id": "srahahmessenger1",
+    "storage_bucket": "srahahmessenger1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:793956451475:android:efe29d9070c62ac1",
+        "android_client_info": {
+          "package_name": "eslamfaisal.srahahmessenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "793956451475-1mhif1fi0c8ta02gn9re8u1dmkic8go5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "eslamfaisal.srahahmessenger",
+            "certificate_hash": "99b1a758e25e4a9d1d23b897b5714b4dae563475"
+          }
+        },
+        {
+          "client_id": "793956451475-ra9s1gc91t8u88pnd783ppoalsieveau.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDj_OFbjLF_UVv82qjJOrXBmBDszw2a7iQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "793956451475-ra9s1gc91t8u88pnd783ppoalsieveau.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
